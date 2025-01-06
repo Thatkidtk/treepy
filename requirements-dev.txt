@@ -1,0 +1,32 @@
+# Testing
+pytest>=7.0.0
+pytest-asyncio>=0.18.0
+pytest-cov>=3.0.0
+pytest-mock>=3.10.0
+
+# Linting and Code Quality
+black>=22.0.0  # Code formatting
+flake8>=4.0.0  # Style guide enforcement
+mypy>=0.991  # Static type checking
+isort>=5.10.0  # Import sorting
+
+# Documentation
+sphinx>=4.5.0
+sphinx-rtd-theme>=1.0.0
+sphinx-autodoc-typehints>=1.18.0
+
+# Development Tools
+pre-commit>=2.20.0  # Git hooks
+bump2version>=1.0.1  # Version management
+tox>=3.24.0  # Test automation
+
+# Security
+bandit>=1.7.0  # Security linting
+safety>=2.3.0  # Dependency security
+
+# Async Support
+aiofiles>=0.8.0  # For async file operations
+
+# Type Stubs for Development
+types-setuptools>=65.3.0
+types-aiofiles>=0.8.0
